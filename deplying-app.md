@@ -18,11 +18,11 @@ Works on **Ubuntu (VMware)**.
 
 # 🧰 1. Prerequisites
 
-Inside the VM, install Node.js + npm:
+Inside the VM, install Node.js + npm + gedit :
 
 ```
 sudo apt update
-sudo apt install nodejs npm -y
+sudo apt install gedit nodejs npm -y
 node -v
 npm -v
 ```
@@ -60,7 +60,9 @@ mkdir public
 # 🎨 3. Frontend Files (HTML + CSS)
 
 ## 📄 `public/index.html`
-
+```
+sudo gedit index.html
+```
 ```
 <!DOCTYPE html>
 <html>
@@ -76,7 +78,9 @@ mkdir public
 ```
 
 ## 🎨 `public/style.css`
-
+```
+sudo gedit style.css
+```
 ```
 body {
   font-family: Arial, sans-serif;
@@ -96,6 +100,7 @@ h1 {
 Initialize a new Node project:
 
 ```
+cd ..
 npm init -y
 ```
 
@@ -231,32 +236,6 @@ Run and test everything in the VM browser.
 ### ✔️ Task 6
 
 Stop and restart the server using CTRL+C and `node server.js`.
-
----
-
-# 📝 9. Cheat Sheet
-
-### Linux Commands
-
-```
-mkdir, cd, nano, ip a
-```
-
-### Node.js Commands
-
-```
-npm init -y
-npm install express
-node server.js
-```
-
-### URL Testing
-
-```
-http://localhost:3000
-http://localhost:3000/hello
-http://localhost:3000/time
-```
 
 ---
 
