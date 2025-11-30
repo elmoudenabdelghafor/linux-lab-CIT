@@ -205,38 +205,7 @@ If you want access from **Windows host**:
    ```
    http://<VM-IP>:3000
    ```
-
----
-
-# 🧪 8. Lab Tasks
-
-### ✔️ Task 1
-
-Create folder `simple-webapp`.
-
-### ✔️ Task 2
-
-Create HTML + CSS inside `/public`.
-
-### ✔️ Task 3
-
-Install Express and create 2 endpoints:
-
-* `/hello`
-* `/time`
-
-### ✔️ Task 4
-
-Serve static files.
-
-### ✔️ Task 5
-
-Run and test everything in the VM browser.
-
-### ✔️ Task 6
-
-Stop and restart the server using CTRL+C and `node server.js`.
-
+   
 ---
 
 # 🎉 End of Lab
