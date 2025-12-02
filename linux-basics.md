@@ -132,7 +132,6 @@ echo "More text" >> file.txt       # add to existing file
 cat file.txt        # show entire file
 head file.txt       # first 10 lines
 tail file.txt       # last 10 lines
-less file.txt       # view page by page (press q to quit)
 ```
 
 ## Creating Folders
