@@ -109,6 +109,16 @@ sudo groupdel developers
 
 # 📂 4. Working with Files
 
+## Navigation
+
+```bash
+pwd             # where am I?
+cd Documents    # go to Documents
+cd ..           # go up one level
+cd ~            # go to home folder
+cd -            # go to previous location
+```
+
 ## Listing Files
 
 ```bash
@@ -168,16 +178,6 @@ rm -i important.txt               # ask before deleting
 ```
 
 ⚠️ **Warning:** `rm -rf` deletes everything without asking — be careful!
-
-## Navigation
-
-```bash
-pwd             # where am I?
-cd Documents    # go to Documents
-cd ..           # go up one level
-cd ~            # go to home folder
-cd -            # go to previous location
-```
 
 ---
 
